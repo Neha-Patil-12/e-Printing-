@@ -1,0 +1,252 @@
+<html>
+<head>
+    
+
+        <style>
+            *{
+                margin: 0;
+                padding:0;
+                font-family:'Times New Roman', Times, serif ;
+                outline: none;
+                text-decoration: none;
+        
+            }
+            
+            .container{
+                width:100%;
+               height: 100%;
+               position:relative;
+            
+            }
+
+ .container::before
+ {
+     content:'';
+	  position:absolute;
+	  top:0;
+	  left:0;
+	  width:91%;
+	  height:30%;
+	  background:linear-gradient(45deg,#58cce0,#fc96fc);
+	  border-radius:0 0 50% 90%/0 0 50% 90%;
+	  transform:scaleX(1.2);
+      
+ }
+            
+ .header{
+     position: relative;
+    /*background-color: #fff;*/
+    height:8%;
+}
+
+.header img{
+    height: 100%;
+    width: 5%;
+   /* position: absolute;*/
+    border-radius: 20%;    
+}
+
+ li{
+    display:flex;
+    padding: 12px;
+   float: right;
+   text-align: center;
+   margin-right: 1%;
+   border-radius: 15%;
+}
+
+ a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+}
+
+li:hover{
+    background:linear-gradient(45deg,#b563ec,#f0b7f0);
+    display:block;
+    transition-duration: 0.8s;
+  position: relative;
+    cursor: pointer;
+}
+
+
+.text p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ 
+.text{
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+    font-size: 20px;
+    margin-top: 2%;
+    margin-left: 3%;
+
+}
+.cimg
+{
+   position: relative;
+    float: right;
+    width: 550px;
+    height:436px;
+    margin-top: 15%;
+    margin-right: 10%;   
+}
+.form{
+    margin-left:7%;
+    margin-top:5.5%;
+   
+   
+}
+
+.form label{
+    font-size:20px;
+    color: #000;
+    padding-right: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.form input{
+    height: 5%;
+    width: 30%;
+    border: 1px solid black;
+}
+
+button{
+ 
+    height:5%;
+    width: 15%;
+    border-radius:15px 15px 15px 15px;
+    font-size:20px;
+    background-color:#4169e1 ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+button:hover{
+    background-color: #ff4500;
+    color:#fff;
+    transition:0.5s;
+}
+
+.corner {
+      width: 0;
+      height: 0;
+      border-bottom: 100px solid #AFEEEE;
+      border-right: 100px solid transparent;
+      margin-top:6.1% ;
+    }
+.tri 
+{
+            width: 0;
+            height: 0;
+            border-top: 50px solid transparent;
+            border-right: 100px solid #AFEEEE;
+            border-bottom: 50px solid transparent;
+            position: absolute;
+            margin-bottom: 1%;
+}
+.tri1
+{
+            width: 0;
+            height: 0;
+            border-top: 50px solid transparent;
+            border-right: 100px solid #AFEEEE;
+            border-bottom: 50px solid transparent;
+            position: relative;
+            margin-left: 50%;
+            margin-top: 5%;
+        
+}
+.tri2
+{
+            width: 0;
+            height: 0;
+            border-top: 50px solid transparent;
+            border-right: 100px solid #AFEEEE;
+            border-bottom: 50px solid transparent;
+            position: absolute;
+            margin-left: 90%;
+            margin-top:16%;
+        
+            @media screen and (min-width:480px){
+                
+                .cimg{
+                    width: 264px;
+height: 350px;
+                }
+                .tri1{
+                    margin-left: 58%;
+margin-top: 9%;
+                }
+                .container
+                {
+  width: 99%;
+  height: 71%;
+  
+                }
+                .text p q
+                {
+                    margin-top:5%;position: relative;width: 40%;height:1px;
+                    margin-right:6%;
+                }
+                .ntype
+                {
+                    margin-left:6%;
+                }
+                a {
+                    font-size: 15px;
+                }
+                .header img
+                {
+                    padding-top:9px;
+                }
+                button
+                {
+                    font-size: 11px;
+                    height: 6%;
+                    width: 15%;
+                }
+
+            }
+
+}
+
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+           <b>
+            <ul>
+                <li><a href="userregister.php">Register</a></li>
+                <li><a href="userlogin.php">Login</a></li>
+            </ul>
+        </b>
+            <img src="images/img3.jpg">
+         <!----   <p style="color: #000;display:inline-flex; margin-left:4%; font-size:25px ;"><span style="color:#d43811ef;">Print</span>It</p>-->
+        </div>
+        <img src="images/img8.jpg" class="cimg" hspace="50" vspace="50" class="cimg">
+        <p class="tri1"></p>
+        <div class="text">
+            <p class="tri"></p>
+            <b><p class="ntype" style="font-size:60px; position: absolute;margin-left:7%">N</p></b><p class="q" style="float:right; margin-right:11.4%;margin-top:2%;position: relative;">ow get your <span style="color:#008000;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">printouts</span> on your <span style="color:#191970;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">fingertips</span>.<br>
+                Just <span style="color:#191970;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> upload </span> your <span style="color:#ff6347;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">documents </span> here and <span style="color:#008000;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">save your time</span>.
+            </p>
+            
+        </div>
+        <p class="tri2"></p>
+        <br><br>
+        <div class="form">
+            <form action="homelogin.php" method="post"> 
+                <input type="text" name="email" placeholder="Enter your email" required>
+                <br><br>
+                <input type="password" name="password" placeholder="Password" required>
+                <br><br>
+               <button type="submit" name="submit" value="submit">Login</button>
+               <br>
+            </form>
+        </div>
+        <div class="corner"></div>
+        </div>
+</body>
+</html>
